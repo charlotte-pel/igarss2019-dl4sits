@@ -10,14 +10,15 @@ More information about our research at https://sites.google.com/site/charpelleti
 
 ### Running the models
 
-- training TempCNNs: `python train_tempcnn.py`
-- training RNNs: `python train_rnn.py`
-- training RFs: `python train_rf.py`
+- training TempCNNs: `python train_classifier.py --classifier TempCNN`
+- training bidirectional GRU-RNNs: `python train_classifier.py --classifier GRU-RNNbi`
+- training GRU-RNNs: `python train_classifier.py --classifier GRU-RNN`
+- training RFs: `python train_classifier.py --classifier RF`
 
-It will output a result file including the OA on test data, the training history for deep learning models, and the learned model.
+It will output a result file including the OA computed on test data, the confusion matrix, the training history for deep learning models, and the learned model.
 
 Each model will be trained on `train_dataset.csv` file and test on `test_dataset.csv` file.  
 Please note that both `train_dataset.csv` and `test_dataset.csv` files are a subsample of the data used in the paper: original data cannot be distributed.
 
 Thoses files have an header, and contain one observation per row having the following format:
-`[class,date1.B2,date1.B3,date1.B4,date1.B5,date1.B6,date1.B7,date1.B8,date1.B8A,date1.B11,date1.B12,...,date73.B12]`
+`[class,objectID,date1.B2,date1.B3,date1.B4,date1.B5,date1.B6,date1.B7,date1.B8,date1.B8A,date1.B11,date1.B12,...,date73.B12]`

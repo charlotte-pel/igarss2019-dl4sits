@@ -198,13 +198,12 @@ if __name__ == "__main__":
 			print('      '+sys.argv[0]+' [options]')
 			print("     Help: ", prog, " --help")
 			print("       or: ", prog, " -h")
-			print("example 1 : python %s --classifier tempcnn " %sys.argv[0])
+			print("example 1 : python %s --classifier TempCNN " %sys.argv[0])
 			sys.exit(-1)
 		else:
 			parser = argparse.ArgumentParser(description='Training RF, TempCNN or GRU-RNN models on SITS datasets')
 			parser.add_argument('--classifier', dest='classifier',
-								help='classifier to train (RF/TempCNN/GRU-RNNbi/GRU-RNN)',
-								default="RF")
+								help='classifier to train (RF/TempCNN/GRU-RNNbi/GRU-RNN)')
 			args = parser.parse_args()
 			main(args.classifier)
 			print("0")
