@@ -1,5 +1,5 @@
-# igarss2019
-Deep Learning for the classification of Sentinel-2 image time series
+# Deep Learning for the classification of Sentinel-2 image time series
+
 Training temporal Convolution Neural Netoworks (TempCNNs), Recurrent Neural Networks (RNNs) and Random Forests (RFs) on satelitte image time series.
 This code is supporting a paper submitted at IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019
 
