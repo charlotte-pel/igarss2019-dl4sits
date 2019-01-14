@@ -31,7 +31,7 @@ from sklearn.externals import joblib
 #-----------------------------------------------------------------------
 
 #-----------------------------------------------------------------------		
-def main(classifier_type):
+def main(classifier_type, train_file, test_file):
 
 	classif_type = ["RF", "TempCNN", "GRU-RNNbi", "GRU-RNN"]
 	if classifier_type not in classif_type:
@@ -41,9 +41,6 @@ def main(classifier_type):
 	dl_flag = True
 	if classifier_type == "RF":
 		dl_flag = False
-		
-	train_file = 'train_dataset.csv'
-	test_file = 'test_dataset.csv'
 
 	# Parameters
 	#-- general
@@ -204,8 +201,12 @@ if __name__ == "__main__":
 			parser = argparse.ArgumentParser(description='Training RF, TempCNN or GRU-RNN models on SITS datasets')
 			parser.add_argument('--classifier', dest='classifier',
 								help='classifier to train (RF/TempCNN/GRU-RNNbi/GRU-RNN)')
+			parser.add_argument('--train', dest='train_file',
+								help='training file')
+			parser.add_argument('--test', dest='test_file',
+								help='test_file')
 			args = parser.parse_args()
-			main(args.classifier)
+			main(args.classifier, args.train_file, args.test_file)
 			print("0")
 	except(RuntimeError):
 		print >> sys.stderr
