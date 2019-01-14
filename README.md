@@ -3,10 +3,10 @@
 Training temporal Convolution Neural Netoworks (TempCNNs), Recurrent Neural Networks (RNNs) and Random Forests (RFs) on satelitte image time series.
 This code is supporting a paper submitted to IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019:
 ```
-@Article{Pelletier2018Deep,
+@inproceedings{Pelletier2018Deep,
     Title = {Deep Learning for the classification of Sentinel-2 image time series},
     Author = {Pelletier, Charlotte and Webb, Geoffrey I and Petitjean, Francois},
-    Journal = {Submitted to IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019},
+    Booktitle = {Submitted to IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019},
     note = {In revision}
 }
 ```
