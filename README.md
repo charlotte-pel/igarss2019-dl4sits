@@ -6,8 +6,8 @@ This code is supporting a paper submitted to IEEE International Geoscience and R
 @inproceedings{Pelletier2018Deep,
     Title = {Deep Learning for the classification of Sentinel-2 image time series},
     Author = {Pelletier, Charlotte and Webb, Geoffrey I and Petitjean, Francois},
-    Booktitle = {Submitted to IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019},
-    note = {In revision}
+    Booktitle = {IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2019},
+    note = {Accepted for an oral presentation}
 }
 ```
 
