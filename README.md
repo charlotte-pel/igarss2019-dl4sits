@@ -32,7 +32,7 @@ Thoses files have an header, and contain one observation per row having the foll
 ### Maps
 
 The produced map for TempCNNs, bidirectional GRU-RNNs, and RFs are available in the `map` folder.
-You can also have a look to our full map of Victoria (Australia) [here](www.MonashVegMap.org).
+You can also have a look to our full map of Victoria (Australia) [here](http://www.MonashVegMap.org).
 
 ## Contributors
  - [Dr. Charlotte Pelletier](https://sites.google.com/site/charpelletier)
