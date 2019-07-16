@@ -28,6 +28,12 @@ Please note that both `train_dataset.csv` and `test_dataset.csv` files are a sub
 Thoses files have an header, and contain one observation per row having the following format:
 `[class,objectID,date1.B2,date1.B3,date1.B4,date1.B5,date1.B6,date1.B7,date1.B8,date1.B8A,date1.B11,date1.B12,...,date73.B12]`
 
+
+### Maps
+
+The produced map for TempCNNs, bidirectional GRU-RNNs, and RFs are available in the `map` folder.
+You can also have a look to our full map of Victoria (Australia) [here](www.MonashVegMap.org).
+
 ## Contributors
  - [Dr. Charlotte Pelletier](https://sites.google.com/site/charpelletier)
  - [Professor Geoffrey I. Webb](http://i.giwebb.com/)
