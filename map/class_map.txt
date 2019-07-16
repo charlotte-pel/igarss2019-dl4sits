@@ -1,0 +1,9 @@
+value,class,colour
+1,Bare Ground,rgb(145, 130, 105)
+2,Canola,rgb(255, 255, 0)
+3,Cereals,rgb(255, 210, 125)
+7,Legumes,rgb(255, 140, 0)
+8,Forest,rgb(50, 150, 0)
+10,Grassland,rgb(190, 230, 90)
+12,Water,rgb(0, 40, 240)
+13,Urban,rgb(255, 100, 100)
